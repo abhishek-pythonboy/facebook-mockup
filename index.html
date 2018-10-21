@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Friendsbook</title>
+</head>
+<body>
+
+  <nav id="topbar">
+    <div class="wrapper">
+      <section class="navLeft">
+      <i class="fab fa-facebook-square fa-2x"><a href="#"></a></i>
+      <input type="text" id="navSearch" placeholder="Search">
+    </section>
+
+    <section class="navRight">
+      <div class="navDP"></div>
+      <a href="#" class="navLink">Abhishek</a>
+      <a href="#" class="navLink">Home</a>
+      <a href="#" class="navLink">Create</a>
+      <section>
+        <a href="#" class="navLinkIcon"><i class="fas fa-user-friends fa-2x"></i></a>
+        <a href="#" class="navLinkIcon"><i class="fab fa-facebook-messenger fa-2x"></i></a>
+        <a href="#" class="navLinkIcon"><i class="fas fa-bell fa-2x"></i></a>
+        <button class="navBtn">
+          <i class="fas fa-question-circle navLinkBtn fa-2x"></i>
+        </button>
+        <button class="navBtn">
+          <i class="fas fa-caret-down navLinkBtn fa-2x"></i>
+        </button>
+        
+      </section>
+      
+    </section>
+    </div>
+    
+  </nav>
+
+  <div class="wrapperFull" id="banner">
+
+  </div>
+
+  <div class="wrapper" id="bodySection">
+    <div class="row rowLeft">
+
+      <div id="name" class="card">
+        <div class="dp" id="mainDP"></div>
+        <strong id="userName">Abhishek Biswas</strong><br>
+        <div id="location">Kolkata, India</div>
+        <button class="btn">Send request</button>
+        <button class="btn">Message</button>
+      </div>
+
+      <div id="bio" class="card">
+        <strong>BIO</strong><br>
+        <span>Coder, Musician, Artist, Food lover, Philomath.</span>
+      </div>
+
+      <div id="photos" class="card">
+        <strong>PHOTOS</strong><br>
+        <div>
+          <div class="userPic dp"></div>
+          <div class="userPic overlap"></div>
+          <div class="userPic overlap"></div>
+          <div class="userPic overlap"></div>
+          <div class="userPic overlap pic-count"><strong>+15</strong></div>
+        </div>
+        
+      </div>
+
+      <div id="friends" class="card">
+        <strong>FRIENDS</strong><br>
+        <div>
+          <div class="friendPic"></div>
+          <div class="friendPic overlap"></div>
+          <div class="friendPic overlap"></div>
+          <div class="friendPic overlap"></div>
+          <div class="friendPic overlap pic-count"><strong>+751</strong></div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="row rowRight">
+      <div class="posts card">
+        <div class="dp postDP"></div>
+        <div class="postUserInfo">
+          <strong>Abhishek</strong>
+          <div class="timePassed">10 minutes ago</div>
+        </div>
+        <hr>
+        <section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique tempus libero, quis tristique lacus consectetur quis. Cras rutrum fringilla mauris sed ullamcorper. Suspendisse vel bibendum velit.
+        </section>
+        <hr>
+        <section>
+        <button class="btn" id="like"><i class="fas fa-heart"></i> 59</button>
+        <button class="btn" id="comment"><i class="fas fa-comment"></i> Comments</button>
+        <button class="btn" id="share"><i class="fas fa-share"></i> Share</button>
+        </section>
+        
+      </div>
+
+      <div class="posts card">
+        <div class="dp postDP"></div>
+        <div class="postUserInfo">
+          <strong>Abhishek</strong>
+          <div class="timePassed">2 days ago</div>
+        </div>
+        <hr>
+        <section>
+          Donec dolor leo, ultrices eu laoreet ut, auctor eu enim. Sed nec pulvinar nisi. Mauris pulvinar fermentum dictum.
+          <div class="postPic" id="pP01"></div>
+        </section>
+        <hr>
+        <section>
+        <button class="btn" id="like"><i class="fas fa-heart loveRed"></i> 95</button>
+        <button class="btn" id="comment"><i class="fas fa-comment"></i> Comments (8)</button>
+        <button class="btn" id="share"><i class="fas fa-share"></i> Share</button>
+        </section>
+      </div>
+
+      <div class="posts card">
+        <div class="dp postDP"></div>
+        <div class="postUserInfo">
+          <strong>Abhishek</strong>
+          <div class="timePassed">2 weeks ago</div>
+        </div>
+        <hr>
+        <section>
+          Cras et dapibus ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas et felis vel sollicitudin. Nullam aliquam mauris sed venenatis eleifend.
+        </section>
+        <hr>
+        <section>
+          <button class="btn" id="like"><i class="fas fa-heart"></i></button>
+          <button class="btn" id="comment"><i class="fas fa-comment"></i> Comments (12)</button>
+          <button class="btn" id="share"><i class="fas fa-share"></i> Share</button>
+        </section>
+        
+        <section class="commentSection">
+          <div class="comment">
+            <div class="reactUser">
+              <div class="reactUserDP" id="rUser01"></div>
+              <div class="reactUserInfo">
+              <strong class="reactUserName">
+                <a href="#">Debanjan Das</a>
+              </strong>
+              <span class="commentText">Pellentesque nec volutpat sapien. Nulla facilisi. Quisque faucibus nunc justo, a sodales mi sollicitudin quis. Nullam nec dolor ac ante fringilla consectetur.</span>
+              <section>
+              <span class="btn">Like (11)</span>
+              <span class="btn">Reply</span>
+              <span class="timePassed">5 minutes ago</span>
+            </section>
+              
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="commentSection">
+          <div class="comment">
+            <div class="reactUser">
+              <div class="reactUserDP" id="rUser02"></div>
+              <div class="reactUserInfo">
+              <strong class="reactUserName">
+                <a href="#">Dipankar Das</a>
+              </strong>
+              <span class="commentText">Cras et dapibus ipsum. Pellentesque habitant morbi tristique senectus et netus et. Cras et dapibus ipsum. Pellentesque habitant morbi.</span>
+              <section>
+              <span class="btn">Like (10)</span>
+              <span class="btn">Reply</span>
+              <span class="timePassed">5 minutes ago</span>
+            </section>
+              
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="posts card">
+        <div class="dp postDP"></div>
+        <div class="postUserInfo">
+          <strong>Abhishek</strong>
+          <div class="timePassed">2 minutes ago</div>
+        </div>
+        <hr>
+        <section>
+          <div class="postPic" id="pP02"></div>
+        </section>
+        <hr>
+        <section>
+          <button class="btn" id="like"><i class="fas fa-heart"></i> 88</button>
+          <button class="btn" id="comment"><i class="fas fa-comment"></i> Comments (18)</button>
+          <button class="btn" id="share"><i class="fas fa-share"></i> Share</button>
+        </section>
+        
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
